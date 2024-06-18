@@ -1,0 +1,60 @@
+body{
+  background-image: url("https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?cs=srgb&dl=pexels-jplenio-1118873.jpg&fm=jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  
+}
+.heading{
+  color: white;
+  font-weight: 700;
+}
+
+.weatherResultBox{
+  margin: auto;
+  width: 470px;
+  height: 450px;
+  
+}
+.weatherIcon{
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+}
+.WeatherCity{
+  margin-top: 20px;
+  font-size: 35px;
+}
+.weatherTemp{
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.weatherUp{
+  margin-top: 0px ;
+  margin-left: 150px;
+  font-weight: 600;
+  font-size: 25px;
+}
+.weatherDetails {
+  margin: 10px 10px;
+  margin-top: 20px;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: space-between; /* Spread out details */
+  flex-wrap: wrap;
+}
+.weatherDetails span{
+  margin: 5px 10px;
+  
+}
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}

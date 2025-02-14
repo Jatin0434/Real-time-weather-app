@@ -48,7 +48,15 @@ function App() {
 
   return (
     <div className="col-md-12">
-    
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7QVGTPVZP3"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7QVGTPVZP3');
+</script>
       <h1 className="heading">Get Weather</h1>
       <div className='d-grid gap-2 col-15 mt-4' >
           <input type='text' className='form-control ' value={inputCity} onChange={handleChangeInput} placeholder='Enter city name' />
